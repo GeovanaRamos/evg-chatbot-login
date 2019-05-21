@@ -1,0 +1,10 @@
+__pycache__
+env/
+
+rasa_core.log
+
+*.log
+models/
+venv/
+rasa_core.log
+.vscode/
