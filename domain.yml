@@ -1,0 +1,45 @@
+intents:
+- sign_up  
+- inform_name
+- inform_email
+- inform_password
+#- forgot_password
+
+entities:
+- name
+- email
+- password
+
+slots:
+  name:
+    type: unfeaturized
+    auto_fill: false
+  email:
+    type: unfeaturized
+    auto_fill: false
+  password:
+    type: unfeaturized
+    auto_fill: false
+
+#actions:
+
+forms: 
+  - user_form
+
+templates:
+  utter_ask_name:
+    - text: "Digite seu nome completo."
+  utter_ask_email:
+    - text: "Digite seu email."
+  utter_ask_password:
+    - text: "Digite uma senha"
+  utter_submit:
+    - text: "Seu cadastro foi feito com os seguintes dados\n
+             - Nome: {name}\n
+             - Email: {email}\n
+             - Senha: {password}\n"
+
+
+
+
+  
