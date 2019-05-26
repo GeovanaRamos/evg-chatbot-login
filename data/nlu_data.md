@@ -21,20 +21,20 @@
 - como recuperar minha senha?
 
 ## intent:inform_name
-- meu nome é [Arthur Matheus](name)
-- meu nome é [jonas gabriel](name)
-- meu nome é [joao pedro](name)
-- meu nome é [matheus miranda](name)
-- meu nome é [miranda junior](name)
-- meu nome é [ania maria](name)
-- meu nome é [guilherme joao](name)
-- meu nome é [gabriela medeiros](name)
-- meu nome é [kamilla farani](name)
-- o meu nome é [bruna passos](name)
-- claro, meu nome é [carla pedrosa](name)
-- blz meu nome é [paloma maria](name)
-- [carla joana](name)
-- [arthur ramos](name)
+- meu nome é [Arthur Matheus sousa](name)
+- meu nome é [jonas gabriel soares](name)
+- [joao pedro da silva](name)
+- [matheus miranda](name)
+- [ricardo junior gabriel](name)
+- [ania maria de sousa](name)
+- [guilherme joao ramires](name)
+- [gabriela medeiros tavares](name)
+- [kamilla farani](name)
+- [bruna passos pereira](name)
+- [carla pedrosa assunção](name)
+- [paloma maria](name)
+- [carla joana rocha](name)
+- [arthur ramos pereira](name)
 - [pedro gomes soares](name)
 
 ## intent:inform_email
@@ -47,18 +47,28 @@
 - [joao@outlook.com](email)
 - [ana_maria@hotmail.com](email)
 - [geovana_ramos@gmail.com](email)
+- [maria123@outlook.com](email)
+- [joao.pedro@gmail.com](email)
+- [jorge_lucas.jl@hotmail.com](email)
+- [mariaAntonieta@gmail.com](emaill)
+- [gabi1998Msilva@gmail.com](email)
 
 ## intent:inform_password
 - Minha senha é [asdjh23847](password)
 - Essa é minha senha [akjsgd298374](password)
-- [lkasjd90809](password)
+- [asjd908](password)
+- [kjd90809](password)
+- [2834kjs](password)
 - [092834kjds](password)
-- [902834kjhk](password)
-- [alkjd09809](password)
-- [9287342983](password)
+- [902834khkjhk](password)
+- [alkjd0kjhk9809](password)
+- [92873429khklhk83](password)
+- [298374hk2828](password)
+- [29387kjh4khds](password)
+- [kncsdj2kh834](password)
+- [asdajh3khjh473] (password)
+- [2kjhjk9877897kh] (password)
 
-## regex:password
-- [A-Za-z0-9]+
 
 
 

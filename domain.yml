@@ -1,9 +1,10 @@
 intents:
-- sign_up  
+- sign_up:
+  use_entities: false
 - inform_name
 - inform_email
 - inform_password
-#- forgot_password
+- forgot_password
 
 entities:
 - name
@@ -21,7 +22,9 @@ slots:
     type: unfeaturized
     auto_fill: false
 
-#actions:
+actions:
+  - action_retrieve_password
+  - utter_ask_email
 
 forms: 
   - user_form
@@ -36,8 +39,7 @@ templates:
   utter_submit:
     - text: "Seu cadastro foi feito com os seguintes dados\n
              - Nome: {name}\n
-             - Email: {email}\n
-             - Senha: {password}\n"
+             - Email: {email}\n"
 
 
 
