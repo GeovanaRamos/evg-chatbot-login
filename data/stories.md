@@ -4,6 +4,7 @@
  - user_form
  - form{"name": "user_form"}
  - form{"name": null}
+ - action_reset_form
 
 ## story_retrieve_password
 * forgot_password

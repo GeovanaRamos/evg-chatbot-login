@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 from rasa_core_sdk import Action
 from rasa_core_sdk import Tracker
-from rasa_core.events import SlotSet
+from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.executor import CollectingDispatcher
 from rasa_core_sdk.forms import FormAction, REQUESTED_SLOT, ActionExecutionRejection
 
@@ -147,6 +147,16 @@ class RetrievePassword(Action):
             print("error searching...\n {}".format(exc))
         finally:
             db.close()
+
+class ResetForm(Action):
+    def name(self):
+        return "action_reset_form"
+
+    def run(self, dispatcher, tracker, domain):
+        return_slots = []
+        for slot in tracker.slots:
+                return_slots.append(SlotSet(slot, None))
+        return return_slots
             
 
 

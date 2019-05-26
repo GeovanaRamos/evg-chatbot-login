@@ -24,6 +24,7 @@ slots:
 
 actions:
   - action_retrieve_password
+  - action_reset_form
   - utter_ask_email
 
 forms: 
